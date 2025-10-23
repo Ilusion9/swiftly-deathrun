@@ -1,0 +1,53 @@
+{
+	"tag": "[Deathrun]",
+	"immunity": {
+		"time": 3
+	},
+	"round": {
+		"time": {
+			"finish": {
+				"min": 60,
+				"max": 120,
+				"players": {
+					"factor": 30
+				}
+			}
+		}
+	},
+	"terrorist": {
+		"queue": {
+			"enable": true,
+			"player": {
+				"requests": {
+					"max": 2
+				}
+			}
+		},
+		"random": {
+			"enable": true,
+			"players": {
+				"min": 5
+			}
+		},
+		"speed": true
+	},
+	"terrorist_killer": {
+		"sounds": {
+			"join": "Music.Match.LastRoundHalf"
+		}
+	},
+	"warmup": {
+		"player": {
+			"respawns": {
+				"max": 1
+			}
+		},
+		"time": {
+			"min": 10,
+			"max": 30,
+			"players": {
+				"factor": 0.8
+			}
+		}
+	}
+}
